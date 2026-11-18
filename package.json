@@ -1,0 +1,11 @@
+{
+  "name": "numa-memory-allocator",
+  "version": "1.0.0",
+  "description": "NUMA-aware memory allocation planner: node affinity, page migration, fragmentation and reclaim policies",
+  "type": "module",
+  "main": "src/numa-planner.js",
+  "scripts": {
+    "test": "node --test",
+    "demo": "node src/demo.js"
+  }
+}
